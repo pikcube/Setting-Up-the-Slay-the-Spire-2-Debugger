@@ -8,7 +8,7 @@ In order to use a debugger, we're going to need to be able to launch Slay the Sp
 
 ![Image](./noAppId.png "steam_appid.txt is missing")
 
-This is thankfully a pretty easy fix, you just need to create a text file called `steam_appid.txt` and set the contents to `2868840`.
+This is thankfully a pretty easy fix, you just need to create a text file called `steam_appid.txt` in the game directory and set the contents to `2868840`.
 
 Thankfully, you only need to do this step once, and it'll work forever (unless you delete the file I suppose).
 
@@ -69,4 +69,22 @@ In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New C
 
 ## Launching the Game
 
-The hard part is all finished, now all you have to do is build you project then launch the debugger (F5 in Visual Studio, Alt+F5 in Rider).
+The hard part is all finished, now all you have to do is build you project then launch the debugger with your new configuration (F5 in Visual Studio, Alt+F5 in Rider).
+
+## Enabling External Source Debugging
+
+Stepping through your code is helpful by itself, but it's even more helpful to be able to step through the code in BaseLib or Slay the Spire 2 itself.
+
+This might already be enable for you, but if it isn't you can enable it in your debugger settings.
+
+In Visual Studio, go into Menu > Tools > Options > Debugging > General, and Disable `Enable Just My Code`
+
+![Image](enableExternalVS.png)
+
+In Rider, go to Settings > Build, Execution, Deployment > Debugger > .Net Languages, and enable `Enable exteranl source debug`
+
+![Image](enableExternalRider.png)
+
+# Special Thanks
+
+I want to quickly give a shout out to [this reddit post](https://www.reddit.com/r/godot/comments/xhirp8/debugging_godot4_beta_projects_from_vs_and_vscode/) by `u/PeppySeppy`. Their guide was the jumping off point I used to figure everything out.
