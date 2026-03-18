@@ -8,7 +8,7 @@ In order to use a debugger, we're going to need to be able to launch Slay the Sp
 
 ![Image](./noAppId.png "steam_appid.txt is missing")
 
-This is thankfully a pretty easy fix, you just need to create a text file called `steam_appid.txt` and set the contents to `2868840`.
+This is thankfully a pretty easy fix, you just need to create a text file called `steam_appid.txt` in the game directory and set the contents to `2868840`.
 
 Thankfully, you only need to do this step once, and it'll work forever (unless you delete the file I suppose).
 
