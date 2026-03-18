@@ -77,7 +77,7 @@ The hard part is all finished, now all you have to do is build your project, the
 
 Stepping through your code is helpful by itself, but it's even more helpful to be able to step through the code in BaseLib or Slay the Spire 2 itself.
 
-This might already be enable for you, but if it isn't you can enable it in your debugger settings.
+This might already be enabled for you, but if it isn't you can enable it in your debugger settings.
 
 In Visual Studio, go into Menu > Tools > Options > Debugging > General, and Disable `Enable Just My Code`
 
