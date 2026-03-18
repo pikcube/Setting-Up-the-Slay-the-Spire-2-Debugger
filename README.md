@@ -79,11 +79,11 @@ This might already be enable for you, but if it isn't you can enable it in your 
 
 In Visual Studio, go into Menu > Tools > Options > Debugging > General, and Disable `Enable Just My Code`
 
-![Image](./enableExteranlVS.png)
+![Image](enableExteranlVS.png)
 
 In Rider, go to Settings > Build, Execution, Deployment > Debugger > .Net Languages, and enable `Enable exteranl source debug`
 
-![Image](./enableExteranlRider.png)
+![Image](enableExteranlRider.png)
 
 # Special Thanks
 
