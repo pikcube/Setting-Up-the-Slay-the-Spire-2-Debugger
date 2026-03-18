@@ -63,7 +63,7 @@ You can also fill this out within your IDE. In Visual Studio, go to Menu > Debug
 
 ![Image](visualstudioconfig.png)
 
-In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New Configuration (+) > .Net Executable, and fill out the Executable and Working Directory. Then click Okay.
+In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New Configuration (+) > .Net Executable, and fill out the Executable and Working Directory. Then click OK.
 
 ![Image](riderconfig.png)
 
