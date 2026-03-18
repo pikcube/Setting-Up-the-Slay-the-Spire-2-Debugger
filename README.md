@@ -17,7 +17,7 @@ Thankfully, you only need to do this step once, and it'll work forever (unless y
 Actually setting up the debugger is pretty straightforward once you can launch the game at all. Slay the Spire 2 was made in Godot 4, which supports debuggers without any additional modifications.
 
 At a high level, you need to
-1. Compile your mod for `Debug` (with Optimizations Off)
+1. Compile your mod for `Debug` (with optimizations off)
 2. Set the Launch Profile to launch Slay the Spire 2
 
 ### Compiling without Optimizations
