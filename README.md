@@ -70,3 +70,7 @@ In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New C
 ## Launching the Game
 
 The hard part is all finished, now all you have to do is build you project then launch the debugger with your new configuration (F5 in Visual Studio, Alt+F5 in Rider).
+
+# Special Thanks
+
+I want to quickly give a shout out to (this reddit post)[https://www.reddit.com/r/godot/comments/xhirp8/debugging_godot4_beta_projects_from_vs_and_vscode/] by `u/PeppySeppy`. Their guide was the jumping off point I used to figure everything out.
