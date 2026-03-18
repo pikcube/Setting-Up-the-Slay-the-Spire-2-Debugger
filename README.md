@@ -22,7 +22,7 @@ At a high level, you need to
 
 ### Compiling without Optimizations
 
-If you are using [Alchyr Mod Template](https://github.com/Alchyr/ModTemplate-StS2/tree/master), this is as easy as setting your build configuration to either `Debug` or `ExportDebug` (and if you aren't using their template you probably already know how to do this).
+If you are using [Alchyr Mod Template](https://github.com/Alchyr/ModTemplate-StS2/tree/master), this is as easy as setting your build configuration to either `Debug` or `ExportDebug`. If you aren't using their template, you probably already know how to do this.
 
 ![Image](./exportdebug.png)
 
