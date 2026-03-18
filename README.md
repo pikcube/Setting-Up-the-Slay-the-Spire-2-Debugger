@@ -69,4 +69,4 @@ In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New C
 
 ## Launching the Game
 
-The hard part is all finished, now all you have to do is build you project then launch the debugger (F5 in Visual Studio, Alt+F5 in Rider).
+The hard part is all finished, now all you have to do is build you project then launch the debugger with your new configuration (F5 in Visual Studio, Alt+F5 in Rider).
