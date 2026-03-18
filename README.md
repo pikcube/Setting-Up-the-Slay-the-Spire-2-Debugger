@@ -1,6 +1,6 @@
 # Setting up the Debugger with Slay the Spire 2
 
-Setting up a debugger allows you to set breakpoints in your code and step through execution line by line. The process isn't difficult if a bit annoying.
+Setting up a debugger allows you to set breakpoints in your code and step through execution line by line. The process is relatively easy if a bit annoying.
 
 ## Preparing the Slay the Spire 2 Executable for Debugging (Once Per Machine)
 
