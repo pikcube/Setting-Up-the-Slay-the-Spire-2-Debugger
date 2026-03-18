@@ -71,6 +71,20 @@ In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New C
 
 The hard part is all finished, now all you have to do is build you project then launch the debugger with your new configuration (F5 in Visual Studio, Alt+F5 in Rider).
 
+## Enabling External Source Debugging
+
+Stepping through your code is helpful by itself, but it's even more helpful to be able to step through the code in BaseLib or Slay the Spire 2 itself.
+
+This might already be enable for you, but if it isn't you can enable it in your debugger settings.
+
+In Visual Studio, go into Menu > Tools > Options > Debugging > General, and Disable `Enable Just My Code`
+
+![Image](./enableExteranlVS.png)
+
+In Rider, go to Settings > Build, Execution, Deployment > Debugger > .Net Languages, and enable `Enable exteranl source debug`
+
+![Image](./enableExteranlRider.png)
+
 # Special Thanks
 
 I want to quickly give a shout out to [this reddit post](https://www.reddit.com/r/godot/comments/xhirp8/debugging_godot4_beta_projects_from_vs_and_vscode/) by `u/PeppySeppy`. Their guide was the jumping off point I used to figure everything out.
