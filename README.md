@@ -67,6 +67,8 @@ In Rider, go to Run / Debug Configuration > Edit Configurations. Click Add New C
 
 ![Image](riderconfig.png)
 
+***Note, if you select `.Net Launch Settings Profile`, you won't be able to select a start up project until you create a `Properties/launchSettings.json` file formatted like the one at the top of this section. You can bypass the need to do this by deleting that configuration, and creating a `.Net Executable` configuration instead***
+
 ## Launching the Game
 
 The hard part is all finished, now all you have to do is build you project then launch the debugger with your new configuration (F5 in Visual Studio, Alt+F5 in Rider).
